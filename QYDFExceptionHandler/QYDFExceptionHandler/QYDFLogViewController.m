@@ -6,7 +6,6 @@
 //
 
 #import "QYDFLogViewController.h"
-#import "UIImage+QYDFImageWaterPrint.h"
 #import "UIView+WaterMark.h"
 
 @interface QYDFLogViewController ()

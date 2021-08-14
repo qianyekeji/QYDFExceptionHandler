@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E361713F26C10FE200276C27 /* UIImage+QYDFImageWaterPrint.m in Sources */ = {isa = PBXBuildFile; fileRef = E361713326C10FE200276C27 /* UIImage+QYDFImageWaterPrint.m */; };
 		E361714026C10FE200276C27 /* QYDFLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E361713626C10FE200276C27 /* QYDFLogViewController.m */; };
 		E361714126C10FE200276C27 /* QYDFApp.m in Sources */ = {isa = PBXBuildFile; fileRef = E361713726C10FE200276C27 /* QYDFApp.m */; };
 		E361714226C10FE200276C27 /* UIViewController+ExcepitionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E361713A26C10FE200276C27 /* UIViewController+ExcepitionHandler.m */; };
@@ -25,13 +24,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E361713326C10FE200276C27 /* UIImage+QYDFImageWaterPrint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QYDFImageWaterPrint.m"; sourceTree = "<group>"; };
 		E361713426C10FE200276C27 /* UIViewController+ExcepitionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ExcepitionHandler.h"; sourceTree = "<group>"; };
 		E361713526C10FE200276C27 /* UIView+WaterMark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WaterMark.h"; sourceTree = "<group>"; };
 		E361713626C10FE200276C27 /* QYDFLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYDFLogViewController.m; sourceTree = "<group>"; };
 		E361713726C10FE200276C27 /* QYDFApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYDFApp.m; sourceTree = "<group>"; };
 		E361713826C10FE200276C27 /* QYDFUncaughtExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYDFUncaughtExceptionHandler.h; sourceTree = "<group>"; };
-		E361713926C10FE200276C27 /* UIImage+QYDFImageWaterPrint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QYDFImageWaterPrint.h"; sourceTree = "<group>"; };
 		E361713A26C10FE200276C27 /* UIViewController+ExcepitionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ExcepitionHandler.m"; sourceTree = "<group>"; };
 		E361713B26C10FE200276C27 /* QYDFLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYDFLogViewController.h; sourceTree = "<group>"; };
 		E361713C26C10FE200276C27 /* UIView+WaterMark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WaterMark.m"; sourceTree = "<group>"; };
@@ -69,13 +66,11 @@
 		E361713226C10FE200276C27 /* QYDFExceptionHandler */ = {
 			isa = PBXGroup;
 			children = (
-				E361713326C10FE200276C27 /* UIImage+QYDFImageWaterPrint.m */,
 				E361713426C10FE200276C27 /* UIViewController+ExcepitionHandler.h */,
 				E361713526C10FE200276C27 /* UIView+WaterMark.h */,
 				E361713626C10FE200276C27 /* QYDFLogViewController.m */,
 				E361713726C10FE200276C27 /* QYDFApp.m */,
 				E361713826C10FE200276C27 /* QYDFUncaughtExceptionHandler.h */,
-				E361713926C10FE200276C27 /* UIImage+QYDFImageWaterPrint.h */,
 				E361713A26C10FE200276C27 /* UIViewController+ExcepitionHandler.m */,
 				E361713B26C10FE200276C27 /* QYDFLogViewController.h */,
 				E361713C26C10FE200276C27 /* UIView+WaterMark.m */,
@@ -200,7 +195,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3A4D73A26B928F20084852F /* ViewController.m in Sources */,
-				E361713F26C10FE200276C27 /* UIImage+QYDFImageWaterPrint.m in Sources */,
 				E361714126C10FE200276C27 /* QYDFApp.m in Sources */,
 				E3A4D73426B928F20084852F /* AppDelegate.m in Sources */,
 				E361714026C10FE200276C27 /* QYDFLogViewController.m in Sources */,
