@@ -23,7 +23,7 @@
 {
     self.view.backgroundColor=[UIColor yellowColor];
     NSLog(@"崩溃了啊----");
-  [self performSelector:@selector(qianyedoufu)];
+    [self performSelector:@selector(qianyedoufu)];
 }
 
 @end
