@@ -224,12 +224,16 @@ void SignalHandler(int signal)
 void InstallQYDFUncaughtExceptionHandler(void)
 {
     NSSetUncaughtExceptionHandler(&HandleException);
+    signal(SIGHUP, SignalHandler);
+    signal(SIGINT, SignalHandler);
+    signal(SIGQUIT, SignalHandler);
     signal(SIGABRT, SignalHandler);
     signal(SIGILL, SignalHandler);
     signal(SIGSEGV, SignalHandler);
     signal(SIGFPE, SignalHandler);
     signal(SIGBUS, SignalHandler);
     signal(SIGPIPE, SignalHandler);
+
 }
 
 
